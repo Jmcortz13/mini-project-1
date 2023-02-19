@@ -12,3 +12,30 @@ body{
   width: 3rem;
   font-size: 1.5rem;
 }
+
+
+.featured-items {
+  margin-top: 50px;
+}
+
+.featured__item {
+  display: block;
+  position: relative;
+  transform: scale(.90);
+  transition: transform 250ms ease-in-out;
+}
+
+.featured__item:hover, 
+.featured__item:focus {
+  transform: scale(1);
+}
+
+.featured__details {
+  text-align: center;
+}
+
+.featured__img {
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 10px ;
+}

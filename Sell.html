@@ -17,7 +17,7 @@
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
                 <div class="container-fluid px-5">
                     <a class="navbar-brand" href="#">
                         <img src="images/brand.png" alt="Logo" width="70" height="68" class="d-inline-block align-text-center">
@@ -33,7 +33,7 @@
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Shop
                                   </a>
-                                  <ul class="dropdown-menu">
+                                  <ul class="dropdown-menu">   
                                     <li><a class="dropdown-item h5 mb-1" href="#">Shop All</a></li>
                                     <li><a class="dropdown-item" href="#">Girls' clothes</a></li>
                                     <li><a class="dropdown-item" href="#">Boy's clothes</a></li>
@@ -46,8 +46,7 @@
                                     <li><a class="dropdown-item" href="#">Maternity & Nursing</a></li>
                                   </ul>
                               </li>
-                            <li class="nav-item nav-fill bg-primary text-light rounded me-3"><a class="nav-link" href="Sell.html">Sell With Us</a></li>
-                            <li class="nav-item nav-fill bg-warning text-light rounded me-3"><a class="nav-link" href="profile.html">Swap an Item</a></li>
+                            <li class="nav-item nav-fill bg-primary text-light rounded me-3"><a class="nav-link" href="Sell.html">Sell/Swap</a></li>
                             <li class="nav-item text-light rounded"><a class="nav-link" href="buy.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
                                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
                               </svg></a>
@@ -60,10 +59,49 @@
                 </div>
             </nav>
             </nav>
-            <!-- Header-->
-            <header class="bg-light py-5">
+            <!-- Header Carousel-->
+            <header class="bg-light py-5 mt-lg-5">
                 <div class="container px-5">
-                    <div class="row gx-5 align-items-center justify-content-center">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="5000">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <div class="col-lg-8 col-xl-7 col-xxl-6">
+                                    <div class="my-5 text-center text-xl-start">
+                                        <h1 class="display-5 fw-bolder text-info mb-2">Selling with Us is as easy as 1 - 2 -3 !</h1>
+                                        <p class="lead fw-normal text-dark-50 mb-4"> Our platform helps you find a new home for all the stuff your kids outgrow. Nothing goes to waste, and you get paid too!</p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="images/baby sell.jpg" alt="..." /> </div>
+                            </div>
+                        </div>
+                          <div class="carousel-item" data-bs-interval="5000">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <div class="col-lg-8 col-xl-7 col-xxl-6">
+                                    <div class="my-5 text-center text-xl-start">
+                                        <h1 class="display-5 fw-bolder text-info mb-2">Swap or Trade your Baby's Old Stuff for Something else here!</h1>
+                                        <p class="lead fw-normal text-dark-50 mb-4"> You can now get rid of your baby's Old stuff and may get a brandnew stuff in return.</p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="images/swapping.jpg" alt="..." /> </div>
+                            </div>
+                          </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    <!-- <div class="row gx-5 align-items-center justify-content-center">
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
                             <div class="my-5 text-center text-xl-start">
                                 <h1 class="display-5 fw-bolder text-info mb-2">Selling with Us is as easy as 1 - 2 -3 !</h1>
@@ -72,7 +110,7 @@
                         </div>
                         <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="images/baby sell.jpg" alt="..." /> </div>
                     </div>
-                </div>
+                 -->
             </header>
             <!-- Features section-->
             <section class="py-5" id="features">
@@ -110,7 +148,7 @@
             <section class="py-5 bg-light">
                 <div class="container px-5 my-5">
                     <div class="text-center">
-                        <h2 class="fw-bolder">Steps on How To Sell</h2>
+                        <h2 class="fw-bolder">Steps on How To Sell/Swap</h2>
                         <p class="h5">Follow Steps From Left To Right</p>
                     </div>
                     <div class="row gx-5 mt-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
@@ -136,7 +174,7 @@
                         <div class="col mb-5">
                             <div class="text-center">
                                 <img class="img-fluid rounded-circle mb-4 px-4" src="images/get paid.jpg" alt="...">
-                                <h5 class="fw-bolder">Get Paid</h5>
+                                <h5 class="fw-bolder">Get Paid or Get to Choose an Item</h5>
                             </div>
                         </div>
                     </div>
