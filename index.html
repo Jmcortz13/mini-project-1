@@ -17,7 +17,7 @@
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
                 <div class="container-fluid px-5">
                     <a class="navbar-brand" href="#">
                         <img src="images/brand.png" alt="Logo" width="70" height="68" class="d-inline-block align-text-center">
@@ -33,7 +33,7 @@
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Shop
                                   </a>
-                                  <ul class="dropdown-menu">
+                                  <ul class="dropdown-menu">   
                                     <li><a class="dropdown-item h5 mb-1" href="#">Shop All</a></li>
                                     <li><a class="dropdown-item" href="#">Girls' clothes</a></li>
                                     <li><a class="dropdown-item" href="#">Boy's clothes</a></li>
@@ -46,8 +46,7 @@
                                     <li><a class="dropdown-item" href="#">Maternity & Nursing</a></li>
                                   </ul>
                               </li>
-                            <li class="nav-item nav-fill bg-primary text-light rounded me-3"><a class="nav-link" href="Sell.html">Sell With Us</a></li>
-                            <li class="nav-item nav-fill bg-warning text-light rounded me-3"><a class="nav-link" href="profile.html">Swap an Item</a></li>
+                            <li class="nav-item nav-fill bg-primary text-light rounded me-3"><a class="nav-link" href="Sell.html">Sell/Swap</a></li>
                             <li class="nav-item text-light rounded"><a class="nav-link" href="buy.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
                                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
                               </svg></a>
@@ -60,7 +59,7 @@
                 </div>
             </nav>
             <!-- Header-->
-            <header class="bg-light py-5">
+            <header class="bg-light py-5 mt-5">
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center justify-content-center">
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
@@ -76,6 +75,9 @@
                     </div>
                 </div>
             </header>
+            <div class="col-lg-12" style="padding: 10px 0 0; color: #0481ff; font-weight: bold;">
+                <marquee behavior="scroll" direction="left">"First time on our website? Subscribe to our newsletter below this page to get a free coupon code up to 20% OFF on regular price items. Enjoy our exciting promos and non stop sale everyday up to 75% Off. Complete your cart by shopping an authentic toys and gears for your child and free delivery within Metro Manila with minimum purchase of 1,000!"</marquee>
+            </div>
             <!-- Features section-->
             <section class="py-5" id="features">
                 <div class="container px-5 my-5">
@@ -129,6 +131,7 @@
                 </div>
             </div>
             <!-- Carousel section-->
+            <section>
             <div class="container mb-lg-5">
                 <h1 class="text-center mb-5"> Categories</h1>
             <div id="carouselExampleIndicators" class="carousel slide">
@@ -181,7 +184,76 @@
                 </button>
               </div>
             </div>
-            <div class="container mt-5">
+        </section>
+        <section>
+            <div class="container display-flex justify-content-between">
+                <h2 class="section-title text-center">Featured products</h2>
+                <div class="row">
+                <div class="col-md-3 ">
+                    <div class="featured-items split">
+                    <a href="" class="featured__item">
+                        <div class="img-details-wrapper">
+                            <img src="images/walker.jpg" alt="" class="featured__img">
+                            <p class="featured__details">Walker</p>
+                        </div>
+                    </a>
+                    <a href="" class="featured__item">
+                        <div class="img-details-wrapper">
+                            <img src="images/car seat.jpg" alt="" class="featured__img">
+                            <p class="featured__details">Car Seat</p>
+                        </div>
+                    </a>
+                    <a href="" class="featured__item">
+                        <div class="img-details-wrapper">
+                            <img src="images/baby shoes.jpg" alt="" class="featured__img">
+                            <p class="featured__details">Shoes</p>
+                        </div>
+                    </a>
+                </div></div>
+                <div class="col-md-3"><div class="featured-items split">
+                    <a href="" class="featured__item">
+                        <div class="img-details-wrapper">
+                            <img src="images/walker.jpg" alt="" class="featured__img">
+                            <p class="featured__details">Walker</p>
+                        </div>
+                    </a>
+                    <a href="" class="featured__item">
+                        <div class="img-details-wrapper">
+                            <img src="images/car seat.jpg" alt="" class="featured__img">
+                            <p class="featured__details">Car Seat</p>
+                        </div>
+                    </a>
+                    <a href="" class="featured__item">
+                        <div class="img-details-wrapper">
+                            <img src="images/baby shoes.jpg" alt="" class="featured__img">
+                            <p class="featured__details">Shoes</p>
+                        </div>
+                    </a>
+                </div></div>
+                <div class="col-md-3"><div class="featured-items split">
+                    <a href="" class="featured__item">
+                        <div class="img-details-wrapper">
+                            <img src="images/walker.jpg" alt="" class="featured__img">
+                            <p class="featured__details">Walker</p>
+                        </div>
+                    </a>
+                    <a href="" class="featured__item">
+                        <div class="img-details-wrapper">
+                            <img src="images/car seat.jpg" alt="" class="featured__img">
+                            <p class="featured__details">Car Seat</p>
+                        </div>
+                    </a>
+                    <a href="" class="featured__item">
+                        <div class="img-details-wrapper">
+                            <img src="images/baby shoes.jpg" alt="" class="featured__img">
+                            <p class="featured__details">Shoes</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+            </div>
+            <!-- <div class="container mt-5">
                 <h1 class="text-center mb-5 mb-lg-5"> Best Sellers </h1>
             <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
@@ -232,7 +304,8 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-            </div>
+            </div> -->
+        </section>
                     <!-- Call to action-->
                     <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5 ">
                         <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
