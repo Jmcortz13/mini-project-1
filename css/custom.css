@@ -19,10 +19,13 @@ body{
 }
 
 .featured__item {
-  display: block;
+  display: flex;
   position: relative;
   transform: scale(.90);
   transition: transform 250ms ease-in-out;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 20px;
 }
 
 .featured__item:hover, 
@@ -37,5 +40,5 @@ body{
 .featured__img {
   margin: 0 auto;
   max-width: 300px;
-  padding: 10px ;
+  padding: 5px;
 }
